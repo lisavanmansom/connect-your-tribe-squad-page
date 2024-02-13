@@ -1,10 +1,31 @@
 <%- include('./partials/head') %>
 
-<h2>Students</h2>
+<!-- <h2>Students</h2>
 <ul>
   <% persons.forEach(person => { %>
     <li><a href="./person/<%= person.id %>"><%= person.name %></a>, squad_id <%= person.squad_id %></li>
   <% }) %>
-</ul>
+</ul> -->
+
+<main>
+  <section>
+    <h1>Meet the squad</h1>
+    <h2>HVA frontend design 1E</h2>
+  </section>
+
+  <section>
+    <button>filter</button>
+    <h3>The member</h3>
+    
+    <label for="sort"></label>
+      <select name="sort" id="sort-select"></select>
+      <option value="alfabetisch-a">A-Z</option>
+      <option value="alfabetisch-z">Z-A</option>
+      <option value="leeftijd-laag">Leeftijd</option>
+      <option value="leeftijd-hoog">Leeftijd</option>
+    </select>
+
+  </section>
+</main>
 
 <%- include('./partials/foot') %>

@@ -1,0 +1,157 @@
+/* Font bestanden Jali - platte tekst */
+
+/* extra-light */
+@font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-ExtraLight.Trial-BF6569377f8e3db.ttf);
+    font-weight: 80;
+  }
+  /* extra-light-italic */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-ExtraLightItalic.Trial-BF6569377f9ce82.ttf);
+    font-weight: 85;
+  }
+  /* light */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-Light.Trial-BF6569377f5683e.ttf);
+    font-weight: 90;
+  }
+  /* light-italic */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-LightItalic.Trial-BF6569377f303e6.ttf);
+    font-weight: 95;
+  }
+  /* regular */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-Regular.Trial-BF6569377f5419d.ttf);
+    font-weight: 100;
+  }
+  /* italic */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-Italic.Trial-BF6569377f36665.ttf);
+    font-weight: 150;
+  }
+  /* medium */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-Medium.Trial-BF6569377f63c37.ttf);
+    font-weight: 200;
+  }
+  /* medium-italic */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-MediumItalic.Trial-BF6569377f67771.ttf);
+    font-weight: 250;
+  }
+  /* semi-bold */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-SemiBold.Trial-BF6569377f1e352.ttf);
+    font-weight: 300;
+  }
+  /* semi-bold-italic */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-SemiBoldItalic.Trial-BF6569377e6d5f2.ttf);
+    font-weight: 350;
+  }
+  /* bold */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-Bold.Trial-BF6569377f6d998.ttf);
+    font-weight: 400;
+  }
+  /* bold-italic */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-BoldItalic.Trial-BF6569377f9e1cb.ttf);
+    font-weight: 450;
+  }
+  /* extra-bold */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-ExtraBold.Trial-BF6569377f793d1.ttf);
+    font-weight: 500;
+  }
+  /* extra-bold-italic*/
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-ExtraBoldItalic.Trial-BF6569377f9ebb9.ttf);
+    font-weight: 550;
+  }
+  /* black- */
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-Black.Trial-BF6569377fbadc7.ttf);
+    font-weight: 600;
+  }
+  /* black-italic*/
+  @font-face {
+    font-family: "Jali";
+    src: url(/JaliLatin-BlackItalic.Trial-BF6569377fa42b7.ttf);
+    font-weight: 650;
+  }
+  /* Keylon*/
+  @font-face {
+    font-family: "Keylon";
+    src: url(/Kelyon-Personal-Use-BF64511b0ba7f9f.otf);
+    font-weight: 120;
+  }
+
+  :root {
+/* colourpalette */ /*--------b---w------ */
+    --white:#F5FAFF;
+    --black:#0A0806;
+
+/* ---------new-colour------------------- */
+
+    /* highlights */ 
+    --cactus-0:#7F9774;
+    --cactus-25:#4C6142;
+    /* hoofdkleur */
+    --cactus-50:#2C3B25;
+    /* shades */    
+    --cactus-75:#20281C;
+    --cactus-100:#141912;
+
+/* ---------new-colour------------------- */
+
+    /* highlights */ 
+    --sputnik-0:#6391A5;
+    --sputnik-25:#306982;
+    /* hoofdkleur */
+    --sputnik-50:#0B506E;
+    /* shades */    
+    --sputnik-75:#07394F;
+    --sputnik-100:#011C27;
+
+/* ---------new-colour------------------- */
+
+    /* highlights */ 
+    --sekhmet-25:#C3DBF3;
+    /* hoofdkleur */
+    --sekhmet-50:#87ACD1;
+    /* shades */    
+    --sekhmet-75:#6286AA;
+    --sekhmet-100:#3C5976;
+
+/* ---------new-colour------------------- */
+
+    /* highlights */ 
+    --scarab-0:#8A7861;
+    --scarab-25:#594C3A;
+    /* hoofdkleur */
+    --scarab-50:#2F261A;
+    /* shades */    
+    --scarab-75:#19140D;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Keylon";
+    font-weight: 120;
+  }
