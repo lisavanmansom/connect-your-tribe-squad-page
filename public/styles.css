@@ -2,104 +2,104 @@
 
 /* extra-light */
 @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-ExtraLight.Trial-BF6569377f8e3db.ttf);
-    font-weight: 80;
-  }
-  /* extra-light-italic */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-ExtraLightItalic.Trial-BF6569377f9ce82.ttf);
-    font-weight: 85;
-  }
-  /* light */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-Light.Trial-BF6569377f5683e.ttf);
-    font-weight: 90;
-  }
-  /* light-italic */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-LightItalic.Trial-BF6569377f303e6.ttf);
-    font-weight: 95;
-  }
-  /* regular */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-Regular.Trial-BF6569377f5419d.ttf);
-    font-weight: 100;
-  }
-  /* italic */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-Italic.Trial-BF6569377f36665.ttf);
-    font-weight: 150;
-  }
-  /* medium */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-Medium.Trial-BF6569377f63c37.ttf);
-    font-weight: 200;
-  }
-  /* medium-italic */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-MediumItalic.Trial-BF6569377f67771.ttf);
-    font-weight: 250;
-  }
-  /* semi-bold */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-SemiBold.Trial-BF6569377f1e352.ttf);
-    font-weight: 300;
-  }
-  /* semi-bold-italic */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-SemiBoldItalic.Trial-BF6569377e6d5f2.ttf);
-    font-weight: 350;
-  }
-  /* bold */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-Bold.Trial-BF6569377f6d998.ttf);
-    font-weight: 400;
-  }
-  /* bold-italic */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-BoldItalic.Trial-BF6569377f9e1cb.ttf);
-    font-weight: 450;
-  }
-  /* extra-bold */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-ExtraBold.Trial-BF6569377f793d1.ttf);
-    font-weight: 500;
-  }
-  /* extra-bold-italic*/
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-ExtraBoldItalic.Trial-BF6569377f9ebb9.ttf);
-    font-weight: 550;
-  }
-  /* black- */
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-Black.Trial-BF6569377fbadc7.ttf);
-    font-weight: 600;
-  }
-  /* black-italic*/
-  @font-face {
-    font-family: "Jali";
-    src: url(/JaliLatin-BlackItalic.Trial-BF6569377fa42b7.ttf);
-    font-weight: 650;
-  }
+  font-family: "Jali";
+  src: url(/JaliLatin-ExtraLight.Trial-BF6569377f8e3db.ttf);
+  font-weight: 80;
+}
+/* extra-light-italic */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-ExtraLightItalic.Trial-BF6569377f9ce82.ttf);
+  font-weight: 85;
+}
+/* light */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-Light.Trial-BF6569377f5683e.ttf);
+  font-weight: 90;
+}
+/* light-italic */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-LightItalic.Trial-BF6569377f303e6.ttf);
+  font-weight: 95;
+}
+/* regular */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-Regular.Trial-BF6569377f5419d.ttf);
+  font-weight: 100;
+}
+/* italic */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-Italic.Trial-BF6569377f36665.ttf);
+  font-weight: 150;
+}
+/* medium */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-Medium.Trial-BF6569377f63c37.ttf);
+  font-weight: 200;
+}
+/* medium-italic */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-MediumItalic.Trial-BF6569377f67771.ttf);
+  font-weight: 250;
+}
+/* semi-bold */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-SemiBold.Trial-BF6569377f1e352.ttf);
+  font-weight: 300;
+}
+/* semi-bold-italic */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-SemiBoldItalic.Trial-BF6569377e6d5f2.ttf);
+  font-weight: 350;
+}
+/* bold */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-Bold.Trial-BF6569377f6d998.ttf);
+  font-weight: 400;
+}
+/* bold-italic */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-BoldItalic.Trial-BF6569377f9e1cb.ttf);
+  font-weight: 450;
+}
+/* extra-bold */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-ExtraBold.Trial-BF6569377f793d1.ttf);
+  font-weight: 500;
+}
+/* extra-bold-italic*/
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-ExtraBoldItalic.Trial-BF6569377f9ebb9.ttf);
+  font-weight: 550;
+}
+/* black- */
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-Black.Trial-BF6569377fbadc7.ttf);
+  font-weight: 600;
+}
+/* black-italic*/
+@font-face {
+  font-family: "Jali";
+  src: url(/JaliLatin-BlackItalic.Trial-BF6569377fa42b7.ttf);
+  font-weight: 650;
+}
   /* Keylon*/
   @font-face {
     font-family: "Keylon";
-    src: url(/Kelyon-Personal-Use-BF64511b0ba7f9f.otf);
+    src: url(/Kelyon-Personal-Use-BF64511b0ba7f9f.otf) format("opentype");
     font-weight: 120;
   }
 
@@ -151,7 +151,7 @@
     --scarab-75:#19140D;
   }
 
-  h1, h2, h3, h4 {
-    font-family: "Keylon";
-    font-weight: 120;
+  h1 {
+    font-family: "Jali";
+    font-weight: 300;
   }
