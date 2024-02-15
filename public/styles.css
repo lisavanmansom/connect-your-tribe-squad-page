@@ -161,6 +161,9 @@
   body {
     background-color: var(--scarab-75);
     color: var(--white);
+    > main {
+      width: 100%;
+    }
   }
    h1, h3, h4 {
     font-family: "Keylon";
@@ -171,6 +174,17 @@
     font-family: "Jali";
     font-weight: 90;
   }
+
+  button {
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+	  color: inherit;
+	  font: inherit;
+    padding: 0;
+	  outline: inherit;
+}
 
   .header-container {
     display: flex;
@@ -225,4 +239,114 @@
     justify-content: center;
     display: flex;
   }
+
+  .member-container {
+    width: 100%;
+    > ul {
+      display: flexbox;
+      width: 100vh;
+      > li {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+
+        width: 100%;
+        height: 20em;
+        border-top: solid .08em var(--white);
+        border-bottom: solid .08em var(--white);
+        > h4 {
+          display: flex;
+          justify-content: center;
+          transform: matrix(1, 0, 0, 1, 0, 210);
+          font-size: 2em;
+          z-index: 10;
+        }
+        > button {
+          border: solid .08em var(--white);
+          border-radius: 10px;
+          display: flex;
+          font-size: 1.2em;
+          margin: 0 auto;
+          padding: 0.25em 1em;
+          text-align: center;
+          transform: matrix(1, 0, 0, 1, 0, 224);
+          z-index: 10;
+        }
+      }
+        > li:nth-of-type(1) {
+            background-image: url("/art-background/1-background.jpeg");
+        }
+        > li:nth-of-type(2) {
+          background-image: url("/art-background/2-background.jpeg");
+        }
+        > li:nth-of-type(3) {
+          background-image: url("/art-background/5-background.jpeg");
+        }
+        > li:nth-of-type(4) {
+          background-image: url("/art-background/4-background.jpeg");
+        }
+        > li:nth-of-type(5) {
+          background-image: url("/art-background/13-background.jpeg");
+        }
+        > li:nth-of-type(6) {
+          background-image: url("/art-background/6-background.jpeg");
+        }
+        > li:nth-of-type(7) {
+          background-image: url("/art-background/15-background.jpeg");
+        }
+        > li:nth-of-type(8) {
+          background-image: url("/art-background/8-background.jpeg");
+        }
+        > li:nth-of-type(9) {
+          background-image: url("/art-background/9-background.jpeg");
+        }
+        > li:nth-of-type(10) {
+          background-image: url("/art-background/10-background.jpeg");
+        }
+        > li:nth-of-type(11) {
+          background-image: url("/art-background/11-background.jpeg");
+        }
+        > li:nth-of-type(12) {
+          background-image: url("/art-background/12-background.jpeg");
+        }
+        > li:nth-of-type(13) {
+          background-image: url("/art-background/17-background.jpeg");
+        }
+        > li:nth-of-type(14) {
+          background-image: url("/art-background/14-background.jpeg");
+        }
+        > li:nth-of-type(15) {
+          background-image: url("/art-background/16-background.jpeg");
+        }
+        > li:nth-of-type(16) {
+          background-image: url("/art-background/18-background.jpeg");
+        }
+        > li:nth-of-type(17) {
+          background-image: url("/art-background/19-background.jpeg");
+        }
+   }
+  }
+
+  .member-info {
+    display: none;
+  }
+
+  .overlay {
+    background: var(--black);
+    overflow-y: hidden;
+    width: 100%;
+    height: 20em;
+    opacity: .20;
+    position: absolute;
+  }
+  .gradient {
+    background: var(--scarab-75);
+    background: linear-gradient(0deg, #19140D 20%, rgba(0,0,0,0) 100%);
+    height: 20em;
+    width: 100%;
+    position: absolute;
+  }
+
+
 
