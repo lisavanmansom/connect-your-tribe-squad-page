@@ -175,7 +175,7 @@
     font-weight: 90;
   }
 
-  button {
+  button, select {
     appearance: none;
     background: none;
     border: none;
@@ -199,19 +199,21 @@
         font-size: 3em;
         margin: 2em 0 0 0;
         text-transform:uppercase;
+        z-index: 10;
       }
       > h2 {
         font-size: 1.3em;
         font-weight: 80;
         text-align: center;
         letter-spacing: 0.276em;
+        z-index: 10;
       }
       > div {
         background: var(--scarab-75);
         background: linear-gradient(0deg, #19140D 0%, rgba(0,0,0,0) 100%);
         height: 7em;
         width: 100%;
-        transform: matrix(1, 0, 0, 1, 0, 14);
+        transform: matrix(1, 0, 0, 1, 0, 0);
     }
   }
 
@@ -220,7 +222,7 @@
     background-image: url("/header-foto.jpeg");
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -230,14 +232,32 @@
   }
 
   .filter-container, .member-container  {
+    margin: 2em 0 0 0;
     justify-content: center;
     display: flex;
   }
 
-  .filter-container, .member-container  {
-    margin: 2em 0 0 0;
-    justify-content: center;
-    display: flex;
+  .filter-container {
+    height: 8em;
+    margin: 0 auto;
+    padding: 6em 0 0 0;
+    > h3 {
+      padding: 0 .7em;
+      text-transform: uppercase;
+      font-size: 2em;
+    }
+    > button, select {
+      border: solid .09em var(--white);
+      border-radius: 10px;
+      display: flex;
+      font-size: 1em;
+      height: 1.9em;
+      padding: 0.25em 0em;
+      text-align: center;
+    }
+    > button {
+      padding: 0.25em .3em;
+    }
   }
 
   .member-container {
@@ -348,5 +368,110 @@
     position: absolute;
   }
 
+  @media (min-width:413px) {
+    .header-container div {
+      transform: matrix(1, 0, 0, 1, 0, 16);
+    }
+    .filter-container {
+      margin: 4em 0 0 0;
+      padding: 4.8em 0 0 0;
+    }
+  }
 
+  @media (min-width:690px) {
+    .header-container  h1 {
+      color: var(--white);
+      text-align: center;
+      font-size: 4em;
+      margin: 2em 0 0 0;
+      text-transform:uppercase;
+    }
+    .header-container h2 {
+      font-size: 1.6em;
+      font-weight: 80;
+      text-align: center;
+      letter-spacing: 0.276em;
+      text-transform:uppercase;
+    }
+    .header-container div {
+      transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+
+    .filter-container {
+      height: 8em;
+      margin: 3em auto;
+      padding: 6em 0 0 0;
+      > h3 {
+        padding: 0 1.7em;
+        font-size: 2.5em;
+      }
+      > button, select {
+        border: solid .09em var(--white);
+        border-radius: 10px;
+        font-size: 1.2em;
+        height: 1.9em;
+        padding: 0.25em 0em;
+        margin: .2em 0;
+        text-align: center;
+      }
+      > button {
+        padding: 0.25em .7em;
+    
+      }
+    }  
+    
+    .member-container ul {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: masonry;
+      > li {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+
+        width: 100%;
+        height: 25em;
+        border: solid .08em var(--white);
+        > h4 {
+          transform: matrix(1, 0, 0, 1, 0, 273);
+          font-size: 2em;
+        }
+        > button {
+          border: solid .08em var(--white);
+          border-radius: 10px;
+          font-size: 1.2em;
+          margin: 0 auto;
+          padding: 0.25em 1em;
+          transform: matrix(1, 0, 0, 1, 0, 292);
+        }
+      }
+    }
+
+      .overlay {
+        width: 100%;
+        height: 25em;
+        opacity: .20;
+      }
+      .gradient {
+        height: 25em;
+        width: 100%;
+      }
+    }
+  
+  
+
+  @media (min-width:1200px) {
+    .member-container ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: masonry;
+  }
+    .filter-container {
+      height: 8em;
+      margin: 4em auto;
+      padding: 6em 0 0 0;
+  }
+}
 
