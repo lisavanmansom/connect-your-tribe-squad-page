@@ -26,7 +26,9 @@
   <section class="member-container">
   <ul>
     <% persons.forEach(person => { %>
-      <li><div class="overlay"></div><div class="gradient"></div><h4><%= person.name %> <%= person.surname %></h4><button>meer info</button>
+      <li><div class="overlay"></div><div class="gradient"></div>
+        <img src="/persons/ <%= person.name%>.png">
+        <h4><%= person.name %> <%= person.surname %></h4><button>meer info</button>
       <div class="member-info"><%= person.name %> <%= person.surname %> <%= person.bio %></div></li>
     <% }) %>
   </ul>
