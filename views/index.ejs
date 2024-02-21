@@ -10,6 +10,35 @@
     <div></div>
   </section>
 
+  <section class="halloffame-container">
+    <div></div>
+    <h3>De eregalerij</h3>
+    <p>De grondleggers van de website</p>
+
+    <div class="image-gallery">
+    <figure><img src="/lisavanmansom-foto.png" alt="Lisa" width="85" height="100"><figcaption>Lisa van Mansom</figcaption></figure>
+    <figure><img src="/the-scream.jpg" alt="Jason" width="85" height="100"><figcaption>Jason Wong</figcaption></figure>
+    <figure><img src="/the-scream.jpg" alt="Patrick" width="85" height="100"><figcaption>Patrick Hordijk</figcaption></figure>
+    <figure><img src="/the-scream.jpg" alt="Abeer" width="85" height="100"><figcaption>Abeer Younes</figcaption></figure></div>
+
+    <h3>Luister nu!</h3>
+    <p>Playlist van de grondleggers</p>
+
+    <div class="spotify-iframe">
+      <iframe style="border-radius:12px" 
+      src="https://open.spotify.com/embed/playlist/6rcGyTcvOXcWGM3jFcgBEd?utm_source=generator" 
+      width="100%" 
+      height="380" 
+      frameBorder="0" 
+      allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"></iframe>
+    </div>
+
+    <div></div>
+    <div></div>
+
+  </section>
+
   <section class="filter-container">
     <button>filter</button>
     <h3>The members</h3>
@@ -27,7 +56,14 @@
   <ul>
     <% persons.forEach(person => { %>
       <li><div class="overlay"></div><div class="gradient"></div>
-        <img src="/persons/ <%= person.name%>.png">
+        <img src="/persons/<%= person.name%>.png"> 
+
+          <!-- <img src="<% if (person.name) { %>
+          /persons/<%= person.name%>.png
+          <% } else { %>
+          /persons/<%= person.No-photo%>.png
+          <% } %>" alt="student"> -->
+
         <h4><%= person.name %> <%= person.surname %></h4><button>meer info</button>
       <div class="member-info"><%= person.name %> <%= person.surname %> <%= person.bio %></div></li>
     <% }) %>

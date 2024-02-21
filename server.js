@@ -22,7 +22,7 @@ app.set('views', './views')
 // Gebruik de map 'public' voor statische resources, zoals stylesheets, afbeeldingen en client-side JavaScript
 app.use(express.static('public'))
 
-// Maak een GET route voor de index
+// Maak een GET route voor de index, defineer urls
 app.get('/', function (request, response) {
   // Haal alle personen uit de WHOIS API op
   fetchJson(apiUrl + '/person/?filter={"squad_id":4}&sort=name').then((apiData) => {
@@ -57,3 +57,4 @@ app.listen(app.get('port'), function () {
   // Toon een bericht in de console en geef het poortnummer door
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
+
